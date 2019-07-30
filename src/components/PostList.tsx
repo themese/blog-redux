@@ -7,7 +7,6 @@ interface PostListProps {
 }
 
 class PostList extends React.Component<PostListProps, any> {
-
     componentDidMount() {
         this.props.fetchPosts();
     }
